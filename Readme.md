@@ -1,7 +1,7 @@
 # DiscordChatExporter
 
 <p align="center">
-    <img src="made.jpg"/>
+    <img src="king.PNG"/>
 </p>
 
 > 🟡 **Project status**: maintenance mode<sup>[[?]](https://github.com/Tyrrrz/.github/blob/master/docs/project-status.md)</sup>
@@ -26,10 +26,6 @@ Glory to Russia!
 
 <p align="center">
     <img src="z.gif"/>
-</p>
-
-<p align="center">
-    <img src="king.PNG"/>
 </p>
 
 ## Download
