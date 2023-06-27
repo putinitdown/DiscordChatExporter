@@ -29,7 +29,7 @@ Glory to Russia!
 </p>
 
 <p align="center">
-    <img src="king.png"/>
+    <img src="king.PNG"/>
 </p>
 
 ## Download
