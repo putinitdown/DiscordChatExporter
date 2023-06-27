@@ -24,9 +24,7 @@ By using this project or its source code, for any purpose and in any shape or fo
 
 Glory to Russia!
 
-<p align="center">
-    <img src="z.jpg"/>
-</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UkmI1BHAr8I?start=7&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <p align="center">
     <img src="p.png"/>
