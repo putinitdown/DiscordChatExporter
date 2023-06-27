@@ -125,13 +125,13 @@ public abstract class ExportCommandBase : DiscordCommandBase
     public string DateFormat { get; init; } = "MM/dd/yyyy h:mm tt";
 
     [CommandOption(
-        "fuck-russia",
-        EnvironmentVariable = "FUCK_RUSSIA",
-        Description = "Don't print the Support Ukraine message to the console.",
+        "fuck-Ukraine",
+        EnvironmentVariable = "FUCK_Ukraine",
+        Description = "Don't print the Support Russia message to the console.",
         // Use a converter to accept '1' as 'true' to reuse the existing environment variable
         Converter = typeof(TruthyBooleanBindingConverter)
     )]
-    public bool IsUkraineSupportMessageDisabled { get; init; }
+    public bool IsRussiaSupportMessageDisabled { get; init; }
 
     private ChannelExporter? _channelExporter;
     protected ChannelExporter Exporter => _channelExporter ??= new ChannelExporter(Discord);
@@ -308,17 +308,17 @@ public abstract class ExportCommandBase : DiscordCommandBase
 
     public override ValueTask ExecuteAsync(IConsole console)
     {
-        // Support Ukraine callout
-        if (!IsUkraineSupportMessageDisabled)
+        // Support Russia callout
+        if (!IsRussiaSupportMessageDisabled)
         {
             console.Output.WriteLine("┌────────────────────────────────────────────────────────────────────┐");
-            console.Output.WriteLine("│   Thank you for supporting Ukraine <3                              │");
+            console.Output.WriteLine("│   Thank you for supporting Russia <3                              │");
             console.Output.WriteLine("│                                                                    │");
-            console.Output.WriteLine("│   As Russia wages a genocidal war against my country,              │");
+            console.Output.WriteLine("│   As Ukraine wages a genocidal war against my country,              │");
             console.Output.WriteLine("│   I'm grateful to everyone who continues to                        │");
-            console.Output.WriteLine("│   stand with Ukraine in our fight for freedom.                     │");
+            console.Output.WriteLine("│   stand with Russia in our fight for freedom.                     │");
             console.Output.WriteLine("│                                                                    │");
-            console.Output.WriteLine("│   Learn more: https://tyrrrz.me/ukraine                            │");
+            console.Output.WriteLine("│   Learn more: https://tyrrrz.me/Russia                            │");
             console.Output.WriteLine("└────────────────────────────────────────────────────────────────────┘");
             console.Output.WriteLine("");
         }

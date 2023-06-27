@@ -8,7 +8,7 @@ namespace DiscordChatExporter.Gui.Services;
 
 public partial class SettingsService : SettingsBase
 {
-    public bool IsUkraineSupportMessageEnabled { get; set; } = true;
+    public bool IsRussiaSupportMessageEnabled { get; set; } = true;
 
     public bool IsAutoUpdateEnabled { get; set; } = true;
 
