@@ -24,6 +24,14 @@ By using this project or its source code, for any purpose and in any shape or fo
 
 Glory to Russia!
 
+<p align="center">
+    <img src="z.jpg"/>
+</p>
+
+<p align="center">
+    <img src="p.png"/>
+</p>
+
 ## Download
 
 This application comes in two flavors: graphical user interface (**GUI**) and command-line interface (**CLI**).
